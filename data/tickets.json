@@ -1,0 +1,13 @@
+[
+  {
+    "ticketId": "TL-TICK-5267",
+    "createdAt": "2026-09-09T06:55:54.344Z",
+    "status": "open",
+    "priority": "high",
+    "name": "Rohan Verma",
+    "email": "rohan@example.com",
+    "phone": "+91 98123 45678",
+    "subject": "warranty",
+    "message": "Need help registering my 2-year warranty certificate."
+  }
+]

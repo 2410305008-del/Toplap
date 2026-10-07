@@ -1,0 +1,17 @@
+{
+  "name": "toplap-backend",
+  "version": "1.0.0",
+  "description": "TopLap High-Performance Tech E-Commerce Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_backend.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "keywords": ["ecommerce", "toplap", "tech", "hardware"],
+  "author": "TopLap Engineering",
+  "license": "ISC"
+}

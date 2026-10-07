@@ -1,0 +1,38 @@
+[
+  {
+    "orderId": "TL-263476",
+    "createdAt": "2026-09-09T06:55:54.258Z",
+    "status": "confirmed",
+    "customer": {
+      "name": "Aryan Sharma",
+      "phone": "+91 98765 43210",
+      "email": "aryan.sharma@example.com",
+      "address": "14, Palm Grove Residency, Indiranagar",
+      "city": "Bengaluru",
+      "pin": "560038"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Dell XPS 15 OLED",
+        "variant": "32GB RAM / 1TB SSD",
+        "unitPrice": 149999,
+        "qty": 1,
+        "itemTotal": 149999,
+        "image": "images/laptop.png"
+      }
+    ],
+    "pricing": {
+      "subtotal": 149999,
+      "discountAmount": 15000,
+      "promoCodeApplied": "TOPLAP10",
+      "shipping": 0,
+      "total": 134999
+    },
+    "payment": {
+      "method": "upi",
+      "status": "authorized"
+    },
+    "estimatedDelivery": "Saturday, 12 Sept 2026"
+  }
+]

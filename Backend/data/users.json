@@ -1,0 +1,13 @@
+[
+  {
+    "id": "USR-1001",
+    "name": "Aryan Sharma",
+    "email": "aryan@example.com",
+    "password": "Password@123",
+    "phone": "+91 98765 43210",
+    "address": "42, Residency Road, Indiranagar",
+    "city": "Bengaluru",
+    "pin": "560001",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  }
+]

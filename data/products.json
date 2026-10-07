@@ -1,0 +1,429 @@
+[
+  { 
+    "id": 1, 
+    "name": "Dell XPS 15 OLED", 
+    "category": "laptops", 
+    "brand": "dell", 
+    "price": 149999, 
+    "oldPrice": 175000, 
+    "rating": 4.9, 
+    "reviews": 312, 
+    "image": "images/laptop.png", 
+    "badge": "New", 
+    "stock": 4,
+    "specsSummary": "Intel Core i9 14th Gen | 32GB DDR5 | 1TB NVMe | RTX 4060",
+    "specs": {
+      "cpu": "Intel Core i9-14900H (14-core, up to 5.4 GHz)",
+      "gpu": "NVIDIA GeForce RTX 4060 8GB GDDR6",
+      "ram": "32GB DDR5 5600MHz",
+      "storage": "1TB M.2 PCIe Gen4 NVMe SSD",
+      "display": "15.6\" 3.5K (3456x2160) OLED InfinityEdge Touch 500 nits",
+      "battery": "86Whr with 130W Type-C Fast Charging (up to 10 hrs)",
+      "os": "Windows 11 Pro 64-bit",
+      "weight": "1.92 kg"
+    },
+    "variants": [
+      { "ram": "16GB RAM / 512GB SSD", "priceOffset": -18000 },
+      { "ram": "32GB RAM / 1TB SSD", "priceOffset": 0 },
+      { "ram": "64GB RAM / 2TB SSD", "priceOffset": 28000 }
+    ]
+  },
+  { 
+    "id": 2, 
+    "name": "ASUS ROG Zephyrus G16", 
+    "category": "laptops", 
+    "brand": "asus", 
+    "price": 189999, 
+    "oldPrice": 220000, 
+    "rating": 4.8, 
+    "reviews": 245, 
+    "image": "images/laptop2.png", 
+    "badge": "Hot", 
+    "stock": 3,
+    "specsSummary": "AMD Ryzen 9 8945HS | 32GB RAM | 1TB SSD | RTX 4080",
+    "specs": {
+      "cpu": "AMD Ryzen 9 8945HS with Ryzen AI (up to 5.2 GHz)",
+      "gpu": "NVIDIA GeForce RTX 4080 12GB GDDR6 (115W TGP)",
+      "ram": "32GB LPDDR5X 7467MHz",
+      "storage": "1TB PCIe 4.0 NVMe M.2 Performance SSD",
+      "display": "16.0\" 2.5K 240Hz 0.2ms ROG Nebula OLED G-SYNC Display",
+      "battery": "90Whr 4-cell Li-ion with 100W PD charging",
+      "os": "Windows 11 Home",
+      "weight": "1.85 kg"
+    },
+    "variants": [
+      { "ram": "16GB RAM / 1TB SSD", "priceOffset": -15000 },
+      { "ram": "32GB RAM / 1TB SSD", "priceOffset": 0 },
+      { "ram": "32GB RAM / 2TB SSD", "priceOffset": 16000 }
+    ]
+  },
+  { 
+    "id": 3, 
+    "name": "Lenovo ThinkPad X1 Carbon Gen 12", 
+    "category": "laptops", 
+    "brand": "lenovo", 
+    "price": 124999, 
+    "oldPrice": 145000, 
+    "rating": 4.7, 
+    "reviews": 187, 
+    "image": "images/laptop.png", 
+    "badge": "Sale", 
+    "stock": 7,
+    "specsSummary": "Intel Core Ultra 7 155H | 16GB RAM | 512GB SSD | 14\" IPS",
+    "specs": {
+      "cpu": "Intel Core Ultra 7 155H (16-core with Intel AI Boost)",
+      "gpu": "Intel Arc Graphics Integrated",
+      "ram": "16GB LPDDR5X 6400MHz",
+      "storage": "512GB M.2 2280 PCIe Gen4 SSD",
+      "display": "14.0\" 2.8K OLED Anti-Glare 120Hz 400 nits HDR500",
+      "battery": "57Whr Rapid Charge (80% in 60 min)",
+      "os": "Windows 11 Pro",
+      "weight": "1.09 kg"
+    },
+    "variants": [
+      { "ram": "16GB RAM / 512GB SSD", "priceOffset": 0 },
+      { "ram": "32GB RAM / 1TB SSD", "priceOffset": 21000 }
+    ]
+  },
+  { 
+    "id": 4, 
+    "name": "Dell Inspiron 14 Plus", 
+    "category": "laptops", 
+    "brand": "dell", 
+    "price": 79999, 
+    "oldPrice": 95000, 
+    "rating": 4.5, 
+    "reviews": 423, 
+    "image": "images/laptop2.png", 
+    "badge": null, 
+    "stock": 12,
+    "specsSummary": "Intel Core i5 13th Gen | 16GB RAM | 512GB SSD | 14\" FHD",
+    "specs": {
+      "cpu": "Intel Core i5-13500H (12 cores, up to 4.7 GHz)",
+      "gpu": "Intel Iris Xe Graphics",
+      "ram": "16GB LPDDR5 4800MHz",
+      "storage": "512GB M.2 PCIe NVMe SSD",
+      "display": "14.0\" 2.2K (2240x1400) 16:10 300 nits ComfortView Plus",
+      "battery": "64Whr with ExpressCharge",
+      "os": "Windows 11 Home + MS Office 2021",
+      "weight": "1.66 kg"
+    },
+    "variants": [
+      { "ram": "16GB RAM / 512GB SSD", "priceOffset": 0 },
+      { "ram": "16GB RAM / 1TB SSD", "priceOffset": 8000 }
+    ]
+  },
+  { 
+    "id": 5, 
+    "name": "ASUS VivoBook Pro 16X", 
+    "category": "laptops", 
+    "brand": "asus", 
+    "price": 64999, 
+    "oldPrice": 75000, 
+    "rating": 4.4, 
+    "reviews": 536, 
+    "image": "images/laptop.png", 
+    "badge": "Sale", 
+    "stock": 9,
+    "specsSummary": "AMD Ryzen 7 7735HS | 16GB RAM | 512GB SSD | 16\" FHD+",
+    "specs": {
+      "cpu": "AMD Ryzen 7 7735HS 8-Core (up to 4.75 GHz)",
+      "gpu": "NVIDIA GeForce RTX 3050 4GB GDDR6",
+      "ram": "16GB DDR5 4800MHz",
+      "storage": "512GB M.2 NVMe PCIe 3.0 SSD",
+      "display": "16.0\" WUXGA 16:10 120Hz NanoEdge IPS-level",
+      "battery": "70Whr 3-cell Li-ion",
+      "os": "Windows 11 Home",
+      "weight": "1.90 kg"
+    },
+    "variants": [
+      { "ram": "16GB RAM / 512GB SSD", "priceOffset": 0 },
+      { "ram": "16GB RAM / 1TB SSD", "priceOffset": 7000 }
+    ]
+  },
+  { 
+    "id": 6, 
+    "name": "Lenovo IdeaPad Gaming 3", 
+    "category": "laptops", 
+    "brand": "lenovo", 
+    "price": 54999, 
+    "oldPrice": 69999, 
+    "rating": 4.6, 
+    "reviews": 712, 
+    "image": "images/laptop2.png", 
+    "badge": "Hot", 
+    "stock": 14,
+    "specsSummary": "AMD Ryzen 5 6600H | 8GB RAM | 512GB SSD | RTX 3050",
+    "specs": {
+      "cpu": "AMD Ryzen 5 6600H 6-Core (up to 4.5 GHz)",
+      "gpu": "NVIDIA GeForce RTX 3050 4GB GDDR6 (85W)",
+      "ram": "16GB DDR5 4800MHz (upgradable)",
+      "storage": "512GB SSD M.2 2242 PCIe 4.0x4 NVMe",
+      "display": "15.6\" FHD (1920x1080) IPS 120Hz 250 nits",
+      "battery": "45Whr with Rapid Charge Boost",
+      "os": "Windows 11 Home",
+      "weight": "2.31 kg"
+    },
+    "variants": [
+      { "ram": "8GB RAM / 512GB SSD", "priceOffset": -4000 },
+      { "ram": "16GB RAM / 512GB SSD", "priceOffset": 0 },
+      { "ram": "16GB RAM / 1TB SSD", "priceOffset": 6500 }
+    ]
+  },
+  { 
+    "id": 7, 
+    "name": "MacBook Pro 14\" M3 Pro", 
+    "category": "macbooks", 
+    "brand": "apple", 
+    "price": 199999, 
+    "oldPrice": 219999, 
+    "rating": 5.0, 
+    "reviews": 892, 
+    "image": "images/macbook.png", 
+    "badge": "Flagship", 
+    "stock": 5,
+    "specsSummary": "Apple M3 Pro (11-CPU/14-GPU) | 18GB Unified | 512GB SSD",
+    "specs": {
+      "cpu": "Apple M3 Pro chip (11-core CPU with 5 performance cores)",
+      "gpu": "14-core GPU with hardware-accelerated ray tracing",
+      "ram": "18GB Unified Memory (150GB/s bandwidth)",
+      "storage": "512GB Ultra-fast PCIe SSD",
+      "display": "14.2\" Liquid Retina XDR (3024x1964) ProMotion 120Hz 1600 nits peak",
+      "battery": "70Whr Li-Polymer (up to 18 hours wireless web)",
+      "os": "macOS Sonoma (upgradable to Sequoia)",
+      "weight": "1.61 kg"
+    },
+    "variants": [
+      { "ram": "18GB Unified / 512GB SSD", "priceOffset": 0 },
+      { "ram": "18GB Unified / 1TB SSD", "priceOffset": 20000 },
+      { "ram": "36GB Unified / 1TB SSD", "priceOffset": 45000 }
+    ]
+  },
+  { 
+    "id": 8, 
+    "name": "MacBook Air 15\" M3", 
+    "category": "macbooks", 
+    "brand": "apple", 
+    "price": 149999, 
+    "oldPrice": 164999, 
+    "rating": 4.9, 
+    "reviews": 1043, 
+    "image": "images/macbook.png", 
+    "badge": "Hot", 
+    "stock": 8,
+    "specsSummary": "Apple M3 (8-CPU/10-GPU) | 16GB Unified | 512GB SSD",
+    "specs": {
+      "cpu": "Apple M3 chip (8-core CPU with 4 performance cores)",
+      "gpu": "10-core GPU with Neural Engine (16-core)",
+      "ram": "16GB Unified Memory",
+      "storage": "512GB SSD Storage",
+      "display": "15.3\" Liquid Retina display with True Tone (500 nits)",
+      "battery": "66.5Whr Li-Po (up to 18 hours battery life)",
+      "os": "macOS Sonoma (fanless silent architecture)",
+      "weight": "1.51 kg"
+    },
+    "variants": [
+      { "ram": "8GB Unified / 256GB SSD", "priceOffset": -25000 },
+      { "ram": "16GB Unified / 512GB SSD", "priceOffset": 0 },
+      { "ram": "24GB Unified / 512GB SSD", "priceOffset": 22000 }
+    ]
+  },
+  { 
+    "id": 9, 
+    "name": "MacBook Pro 16\" M3 Max", 
+    "category": "macbooks", 
+    "brand": "apple", 
+    "price": 299999, 
+    "oldPrice": 329999, 
+    "rating": 5.0, 
+    "reviews": 421, 
+    "image": "images/macbook.png", 
+    "badge": "Flagship", 
+    "stock": 2,
+    "specsSummary": "Apple M3 Max (14-CPU/30-GPU) | 36GB Unified | 1TB SSD",
+    "specs": {
+      "cpu": "Apple M3 Max (14-core CPU with 10 performance cores)",
+      "gpu": "30-core GPU with Dynamic Caching & Ray Tracing",
+      "ram": "36GB Unified Memory (300GB/s bandwidth)",
+      "storage": "1TB Superfast PCIe SSD",
+      "display": "16.2\" Liquid Retina XDR (3456x2234) ProMotion 120Hz",
+      "battery": "100Whr Li-Po (up to 22 hours video playback)",
+      "os": "macOS Sonoma / Studio Grade Mics / 6-speaker system",
+      "weight": "2.16 kg"
+    },
+    "variants": [
+      { "ram": "36GB Unified / 1TB SSD", "priceOffset": 0 },
+      { "ram": "48GB Unified / 1TB SSD", "priceOffset": 45000 },
+      { "ram": "64GB Unified / 2TB SSD", "priceOffset": 95000 }
+    ]
+  },
+  { 
+    "id": 10, 
+    "name": "MacBook Air 13\" M2", 
+    "category": "macbooks", 
+    "brand": "apple", 
+    "price": 114999, 
+    "oldPrice": 124999, 
+    "rating": 4.9, 
+    "reviews": 2341, 
+    "image": "images/macbook.png", 
+    "badge": "Sale", 
+    "stock": 11,
+    "specsSummary": "Apple M2 (8-CPU/8-GPU) | 8GB Unified | 256GB SSD",
+    "specs": {
+      "cpu": "Apple M2 chip 8-core CPU (4 performance & 4 efficiency)",
+      "gpu": "8-core GPU with 100GB/s memory bandwidth",
+      "ram": "8GB Unified Memory",
+      "storage": "256GB SSD Storage",
+      "display": "13.6\" Liquid Retina display with LED-backlit IPS (500 nits)",
+      "battery": "52.6Whr Li-Po (up to 18 hours Apple TV app movie playback)",
+      "os": "macOS Sonoma (MagSafe 3 charging)",
+      "weight": "1.24 kg"
+    },
+    "variants": [
+      { "ram": "8GB Unified / 256GB SSD", "priceOffset": 0 },
+      { "ram": "16GB Unified / 512GB SSD", "priceOffset": 24000 }
+    ]
+  },
+  { 
+    "id": 11, 
+    "name": "iPad Pro 13\" M4 OLED", 
+    "category": "tablets", 
+    "brand": "apple", 
+    "price": 119999, 
+    "oldPrice": 139999, 
+    "rating": 4.9, 
+    "reviews": 654, 
+    "image": "images/tablet.png", 
+    "badge": "New", 
+    "stock": 4,
+    "specsSummary": "Apple M4 Chip | 8GB RAM | 256GB | Tandem Ultra Retina XDR",
+    "specs": {
+      "cpu": "Apple M4 chip (9-core CPU with 3 performance cores)",
+      "gpu": "10-core GPU with hardware-accelerated mesh shading",
+      "ram": "8GB RAM (120GB/s memory bandwidth)",
+      "storage": "256GB High-Speed Flash Storage",
+      "display": "13.0\" Tandem OLED Ultra Retina XDR (2752x2064) 1000 nits full-screen",
+      "battery": "38.99Whr rechargeable lithium-polymer (up to 10 hrs Wi-Fi)",
+      "os": "iPadOS 18 with Apple Intelligence",
+      "weight": "579 g (thinnest Apple product at 5.1mm)"
+    },
+    "variants": [
+      { "ram": "256GB Wi-Fi", "priceOffset": 0 },
+      { "ram": "512GB Wi-Fi", "priceOffset": 20000 },
+      { "ram": "1TB Wi-Fi + Cellular", "priceOffset": 55000 }
+    ]
+  },
+  { 
+    "id": 12, 
+    "name": "iPad Air 11\" M2", 
+    "category": "tablets", 
+    "brand": "apple", 
+    "price": 74999, 
+    "oldPrice": 84999, 
+    "rating": 4.8, 
+    "reviews": 876, 
+    "image": "images/tablet2.png", 
+    "badge": "Hot", 
+    "stock": 6,
+    "specsSummary": "Apple M2 | 8GB RAM | 128GB | 11\" Liquid Retina",
+    "specs": {
+      "cpu": "Apple M2 chip 8-core CPU",
+      "gpu": "9-core GPU with 16-core Neural Engine",
+      "ram": "8GB RAM",
+      "storage": "128GB Flash Storage",
+      "display": "11.0\" Liquid Retina display with P3 wide color (500 nits)",
+      "battery": "28.93Whr rechargeable lithium-polymer",
+      "os": "iPadOS 18 (Supports Apple Pencil Pro)",
+      "weight": "462 g"
+    },
+    "variants": [
+      { "ram": "128GB Wi-Fi", "priceOffset": 0 },
+      { "ram": "256GB Wi-Fi", "priceOffset": 10000 },
+      { "ram": "512GB Wi-Fi", "priceOffset": 28000 }
+    ]
+  },
+  { 
+    "id": 13, 
+    "name": "Samsung Galaxy Tab S9 Ultra", 
+    "category": "tablets", 
+    "brand": "samsung", 
+    "price": 109999, 
+    "oldPrice": 124999, 
+    "rating": 4.7, 
+    "reviews": 432, 
+    "image": "images/tablet.png", 
+    "badge": "Flagship", 
+    "stock": 5,
+    "specsSummary": "Snapdragon 8 Gen 2 | 12GB RAM | 256GB | 14.6\" Dynamic AMOLED 2X",
+    "specs": {
+      "cpu": "Qualcomm Snapdragon 8 Gen 2 for Galaxy (4nm)",
+      "gpu": "Adreno 740 GPU",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0 (MicroSD expandable up to 1TB)",
+      "display": "14.6\" Dynamic AMOLED 2X (2960x1848) 120Hz HDR10+ with S Pen",
+      "battery": "11,200mAh with 45W Fast Charging",
+      "os": "Android 14 with One UI 6.1 and Galaxy AI",
+      "weight": "732 g (IP68 water/dust resistant)"
+    },
+    "variants": [
+      { "ram": "256GB Wi-Fi + S-Pen", "priceOffset": 0 },
+      { "ram": "512GB Wi-Fi + 5G", "priceOffset": 22000 }
+    ]
+  },
+  { 
+    "id": 14, 
+    "name": "Samsung Galaxy Tab S9 FE+", 
+    "category": "tablets", 
+    "brand": "samsung", 
+    "price": 44999, 
+    "oldPrice": 52999, 
+    "rating": 4.5, 
+    "reviews": 321, 
+    "image": "images/tablet2.png", 
+    "badge": null, 
+    "stock": 9,
+    "specsSummary": "Exynos 1380 | 8GB RAM | 128GB | 12.4\" 90Hz WQXGA",
+    "specs": {
+      "cpu": "Samsung Exynos 1380 5nm Octa-Core",
+      "gpu": "Mali-G68 MP5",
+      "ram": "8GB RAM",
+      "storage": "128GB internal (expandable to 1TB)",
+      "display": "12.4\" LCD 90Hz WQXGA (2560x1600) with IP68 S-Pen included",
+      "battery": "10,090mAh with 45W Super Fast Charging",
+      "os": "Android 14 with One UI 6",
+      "weight": "627 g"
+    },
+    "variants": [
+      { "ram": "128GB Wi-Fi", "priceOffset": 0 },
+      { "ram": "256GB 5G", "priceOffset": 12000 }
+    ]
+  },
+  { 
+    "id": 15, 
+    "name": "Lenovo Tab P12 Pro Gen 2", 
+    "category": "tablets", 
+    "brand": "lenovo", 
+    "price": 64999, 
+    "oldPrice": 74999, 
+    "rating": 4.6, 
+    "reviews": 218, 
+    "image": "images/tablet.png", 
+    "badge": "Sale", 
+    "stock": 8,
+    "specsSummary": "Snapdragon 870 | 8GB RAM | 256GB | 12.6\" AMOLED 120Hz",
+    "specs": {
+      "cpu": "Qualcomm Snapdragon 870 5G (up to 3.2 GHz)",
+      "gpu": "Adreno 650",
+      "ram": "8GB LPDDR5",
+      "storage": "256GB UFS 3.1",
+      "display": "12.6\" 2K (2560x1600) AMOLED 120Hz Dolby Vision 600 nits",
+      "battery": "10,200mAh with Quick Charge 4.0",
+      "os": "Android 13 (with Precision Pen 3)",
+      "weight": "565 g"
+    },
+    "variants": [
+      { "ram": "8GB RAM / 256GB SSD", "priceOffset": 0 }
+    ]
+  }
+]
